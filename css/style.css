@@ -1,0 +1,105 @@
+/* VARIABLES CSS */
+/* EL ROOT ES EL SELECTOR PADRE */
+:root {
+    --colorPrimario: #EC111A;
+    --colorSecundario: #082BA5;
+    --colorTerciario: #007BDF;
+    --colorTitulos: #282D31;
+    --colorParrafos: #53575A;
+    --colorSombras: #282D31;
+}
+
+/* SELECTOR UNIVERSAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo-2,
+.titulo-1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.titulo-1 {
+    color: var(--colorPrimario);
+    font-size: 2.2em;
+    margin-top: -14px;
+}
+
+.titulo-4 .titulo-3 {
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+    margin: 30px;
+    padding-top: 100px;
+}
+
+.titulo-3 {
+    color: var(--colorPrimario);
+    margin-top: -10px;
+}
+
+.parrafo {
+    font-family: 'Poppins';
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.titulo-4 {
+    margin-top: 50px;
+    padding-top: 8px;
+}
+
+.boton {
+    background-color: var(--colorPrimario);
+    color: #fff;
+    padding: 1em;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color .5s ease-in-out;
+
+}
+
+.boton:hover {
+    background-color: var(--colorTerciario);
+    color: #fff;
+}
+
+section.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.img-fluid{
+    padding-top: 4em;
+}
+.iconWS{
+    position: fixed;
+    left: 1em;
+    bottom: 1em;
+    font-size: 3em;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    padding: .3em;
+    box-shadow: 1px 0 5px black;
+}.iconAR{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    font-size: 3em;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: .3em;
+    box-shadow: 1px 0 5px black;
+}
